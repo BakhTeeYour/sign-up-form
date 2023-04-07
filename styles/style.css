@@ -1,0 +1,72 @@
+
+body {
+    background:  url('../assets/img/3.jpg') no-repeat center / cover;
+    color: whitesmoke;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up__form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.sign-up__input-title {
+    margin-top: 10px;
+    color: rgb(61, 60, 60);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sign-up__input-title:first-child {
+    margin-top: 0;
+}
+
+
+.sign-up__input {
+
+    margin-top: 10px;
+    padding: 10px 25px;
+    min-width: 300px;
+    border: 1px solid rgb(99, 97, 97);
+    border-radius: 10px;
+    background-color: rgb(99, 97, 97);
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.sign-up__input::placeholder {
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.sign-up__err-msg {
+    color: red;
+    margin-top: 10px;
+}
+
+.sign-up__button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-size: 20px;
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+    background-color: darkgreen;
+    color: whitesmoke;
+}
